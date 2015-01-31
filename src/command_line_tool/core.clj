@@ -1,6 +1,6 @@
 (ns command-line-tool.core
   (:require [clojure.java.io :as io]) ; entire java.io library
-  (:use [clojure.tools.cli :only (cli)]) ; expression loads only cli namesame from tools
+  (:use [clojure.tools.cli :only (cli)]) ; expression loads only cli namespace from tools
   (:gen-class))
 
 (defn do-something
